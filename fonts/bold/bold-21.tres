@@ -1,0 +1,14 @@
+[gd_resource type="DynamicFont" load_steps=3 format=1]
+
+[ext_resource path="res://fonts/chinese-bold.tres" type="DynamicFontData" id=1]
+[ext_resource path="res://fonts/bold/bold.tres" type="DynamicFontData" id=2]
+[ext_resource path="res://fonts/arabic-bold.tres" type="DynamicFontData" id=3]
+
+[resource]
+
+font/size = 21
+font/use_mipmaps = false
+font/use_filter = true
+font/font = ExtResource( 2 )
+fallback/0 = ExtResource( 1 )
+fallback/1 = ExtResource( 3 )
