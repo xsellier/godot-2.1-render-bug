@@ -57,6 +57,4 @@ func toggle_fullscreen_alt():
 
     OS.set_borderless_window(true)
     OS.set_window_position(screen_position)
-
-    # Force to high rez
-    OS.set_window_size(Vector(2560, 1440))
+    OS.set_window_size(screen_size)
